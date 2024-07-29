@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    background-color: #F8F9D7;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+.header{
+    margin-top: 20px;
+}
+#userName{
+    display: inline;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+#logOut{
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: inline;
+}
+#logout{
+    display: inline;
+}
