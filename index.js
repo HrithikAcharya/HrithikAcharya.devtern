@@ -62,7 +62,7 @@ app.post('/home', (req, res) => {
             if (results.length > 0) {
                 req.session.loggedin = true;
                 req.session.username = username;
-                if (remember_me) {
+                if (rememberMe) {
                     res.cookie('username', username, { maxAge: 30 * 24 * 60 * 60 * 1000 });
                     res.cookie('password', password, { maxAge: 30 * 24 * 60 * 60 * 1000 });
                 } else {
